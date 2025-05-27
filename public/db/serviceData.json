@@ -1,12 +1,5 @@
 [
   {
-    "image": "/img/service/service-one__img1.jpg",
-    "icon": "/img/icon/services/air-freight.png",
-    "title": "Air Freight",
-    "description": "Following the quality of our service thus having gained trust",
-    "link": "air-transport"
-  },
-  {
     "image": "/img/service/service-one__img2.jpg",
     "icon": "/img/icon/services/ocean-freight.png",
     "title": "Ocean Freight",

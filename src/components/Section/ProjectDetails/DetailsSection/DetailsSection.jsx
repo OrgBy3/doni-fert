@@ -200,40 +200,6 @@ const DetailsSection = () => {
                   </div>
                 </div>
               </div>
-
-              <div className="services-details-page__pagination margin-top padding-bottom">
-                <div className="single-box">
-                  <div className="icon-box">
-                    <span className="icon-air-transport"></span>
-                  </div>
-                  <div className="text-box">
-                    <p>
-                      <Link href="#">
-                        <span className="icon-up-right-arrow"></span> Previous
-                      </Link>
-                    </p>
-                    <h2>
-                      <Link href="#">Air Transport</Link>
-                    </h2>
-                  </div>
-                </div>
-
-                <div className="single-box style2">
-                  <div className="text-box">
-                    <p>
-                      <Link href="#">
-                        Next <span className="icon-up-right-arrow"></span>
-                      </Link>
-                    </p>
-                    <h2>
-                      <Link href="#">Read Transport</Link>
-                    </h2>
-                  </div>
-                  <div className="icon-box">
-                    <span className="icon-ready-to-go-your-goods fs"></span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
           {/* <!--End Services Details Page Content--> */}

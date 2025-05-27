@@ -171,9 +171,6 @@ const Header = () => {
                                                                         <Link href="road-transport">Road Transport</Link>
                                                                     </li>
                                                                     <li>
-                                                                        <Link href="air-transport">Air Transport</Link>
-                                                                    </li>
-                                                                    <li>
                                                                         <Link href="cargo-transport">Cargo Transport</Link>
                                                                     </li>
                                                                     <li>
@@ -264,9 +261,6 @@ const Header = () => {
                                                     </li>
                                                     <li>
                                                         <Link href="road-transport">Road Transport</Link>
-                                                    </li>
-                                                    <li>
-                                                        <Link href="air-transport">Air Transport</Link>
                                                     </li>
                                                     <li>
                                                         <Link href="cargo-transport">Cargo Transport</Link>

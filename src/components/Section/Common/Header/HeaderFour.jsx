@@ -167,12 +167,11 @@ const HeaderFour = () => {
                                                         liClassName=""
                                                     />
 
-                                                    <li className={currentPath === "/services" || currentPath === "/road-transport" || currentPath === "/air-transport" || currentPath === "/cargo-transport" || currentPath === "/ocean-freight" || currentPath === "/rail-transport" || currentPath === "/warehousing" ? "active menu-item-has-children" : "menu-item-has-children"}>
+                                                    <li className={currentPath === "/services" || currentPath === "/road-transport" || currentPath === "/cargo-transport" || currentPath === "/ocean-freight" || currentPath === "/rail-transport" || currentPath === "/warehousing" ? "active menu-item-has-children" : "menu-item-has-children"}>
                                                         <Link href="#">Services</Link>
                                                         <ul className="sub-menu">
                                                             <li><Link href="/services" className={currentPath === "/services" ? "active" : ""}>Services</Link></li>
                                                             <li><Link href="/road-transport" className={currentPath === "/road-transport" ? "active" : ""}>Road Transport</Link></li>
-                                                            <li><Link href="/air-transport" className={currentPath === "/air-transport" ? "active" : ""}>Air Transport</Link></li>
                                                             <li><Link href="/cargo-transport" className={currentPath === "/cargo-transport" ? "active" : ""}>Cargo Transport</Link></li>
                                                             <li><Link href="/ocean-freight" className={currentPath === "/ocean-freight" ? "active" : ""}>Ocean Freight</Link></li>
                                                             <li><Link href="/rail-transport" className={currentPath === "/rail-transport" ? "active" : ""}>Rail Transport</Link></li>
@@ -306,9 +305,6 @@ const HeaderFour = () => {
                                             </li>
                                             <li>
                                                 <Link href="road-transport">Road Transport</Link>
-                                            </li>
-                                            <li>
-                                                <Link href="air-transport">Air Transport</Link>
                                             </li>
                                             <li>
                                                 <Link href="cargo-transport">Cargo Transport</Link>

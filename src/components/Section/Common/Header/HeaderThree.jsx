@@ -162,9 +162,6 @@ const HeaderThree = () => {
                                                                 <Link href="road-transport ">Road Transport</Link>
                                                             </li>
                                                             <li>
-                                                                <Link href="air-transport ">Air Transport</Link>
-                                                            </li>
-                                                            <li>
                                                                 <Link href="cargo-transport "
                                                                 >Cargo Transport</Link>
                                                             </li>
@@ -260,9 +257,6 @@ const HeaderThree = () => {
                                         </li>
                                         <li>
                                             <Link href="road-transport">Road Transport</Link>
-                                        </li>
-                                        <li>
-                                            <Link href="air-transport">Air Transport</Link>
                                         </li>
                                         <li>
                                             <Link href="cargo-transport">Cargo Transport</Link>

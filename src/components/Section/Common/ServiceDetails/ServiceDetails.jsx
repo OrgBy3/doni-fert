@@ -43,8 +43,6 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
                     {(() => {
                       if (transportType === "road") {
                         return <span className="icon-road-transport mt"></span>;
-                      } else if (transportType === "air") {
-                        return <span className="icon-air-transport mt"></span>;
                       } else if (transportType === "cargo") {
                         return <span className="icon-experience mt"></span>;
                       } else if (transportType === "ocean") {
@@ -163,40 +161,6 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
                   </div>
                 </div>
               </div>
-
-              <div className="services-details-page__pagination margin-top">
-                <div className="single-box">
-                  <div className="icon-box">
-                    <span className="icon-air-transport"></span>
-                  </div>
-                  <div className="text-box">
-                    <p>
-                      <Link href="air-transport">
-                        <span className="icon-up-right-arrow"></span> Previous
-                      </Link>
-                    </p>
-                    <h2>
-                      <Link href="air-transport">Air Transport</Link>
-                    </h2>
-                  </div>
-                </div>
-
-                <div className="single-box style2">
-                  <div className="text-box">
-                    <p>
-                      <Link href="ocean-freight">
-                        Next <span className="icon-up-right-arrow"></span>
-                      </Link>
-                    </p>
-                    <h2>
-                      <Link href="ocean-freight">Ocean Transport</Link>
-                    </h2>
-                  </div>
-                  <div className="icon-box">
-                    <span className="icon-ocean-freight1 fs"></span>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
 
@@ -231,14 +195,6 @@ const ServiceDetails = ({ title, transportType, thumbnailOne, thumbnailTwo }) =>
                     >
                       Road Transport
                       <span className="icon-right-arrow-5"></span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      className={`${transportType === "air" ? "active" : ""}`}
-                      href="air-transport"
-                    >
-                      Air Transport <span className="icon-right-arrow-5"></span>
                     </Link>
                   </li>
                   <li>
