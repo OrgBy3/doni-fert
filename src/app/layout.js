@@ -1,5 +1,6 @@
 "use client"
 // import { Krub, Rubik } from "next/font/google";
+import "../i18n.client";
 import "~/assets/css/bootstrap.min.css";
 import "~/assets/css/all.min.css";
 import "~/assets/css/style.css";
