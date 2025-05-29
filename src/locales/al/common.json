@@ -1,7 +1,10 @@
 {
-  "location": "Rruga Jones, New York, SHBA",
-  "email": "Info@example.com",
-  "phone": "+70 264 566 579",
+  "location": "Lokacioni",
+  "actualLocation": "Rruga Jones, New York, SHBA",
+  "email": "Email",
+  "actualEmail": "Info@example.com",
+  "phone": "Telefoni",
+  "phoneNumber": "+70 264 566 579",
   "nav": {
     "home": "Ballina",
     "about": "Rreth Nesh",

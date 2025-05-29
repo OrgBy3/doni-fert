@@ -1,12 +1,12 @@
 import Footer from "~/components/Section/Common/Footer";
-import Header from "~/components/Section/Common/Header";
+import Header, { HeaderThree } from "~/components/Section/Common/Header";
 import About from "~/components/Section/Home-1/About";
 import Blog from "~/components/Section/Blog/Blog";
 import ChooseUs from "~/components/Section/Home-1/ChooseUs/ChooseUs";
 import Cta from "~/components/Section/Contact/ContactUsSection";
 import Fact from "~/components/Section/Home-1/Fact/Fact";
 import Faq from "~/components/Section/Home-1/Faq/Faq";
-import Hero from "~/components/Section/Home-1/Hero";
+import Hero from "~/components/Section/Home-3/Hero";
 import RecentProjects from "~/components/Section/Home-1/RecentProjects";
 import RequestService from "~/components/Section/Home-1/RequestService/RequestService";
 import Service from "~/components/Section/Home-1/Service";
@@ -20,7 +20,7 @@ export default function Home() {
   return (
     <div className="body-dark-bg homeOne">
       <div className="fix">
-        <Header />
+        <HeaderThree />
         <Hero />
         <About />
         <ChooseUs />

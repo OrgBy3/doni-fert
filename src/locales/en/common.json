@@ -1,7 +1,10 @@
 {
-  "location": "Jones Street, New York, USA",
-  "email": "Info@example.com",
-  "phone": "+70 264 566 579",
+  "location": "Location",
+  "actualLocation": "Jones Street, New York, SHBA",
+  "email": "Email",
+  "actualEmail": "Info@example.com",
+  "phone": "Phone",
+  "phoneNumber": "+70 264 566 579",
   "nav": {
     "home": "Home",
     "about": "About",
