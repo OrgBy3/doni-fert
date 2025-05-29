@@ -266,13 +266,7 @@ const HeaderThree = () => {
                     </div>
 
                     <div className="main-header-three__bottom-right">
-                      <div className="search-box">
-                        <Link
-                          href="#"
-                          className="main-menu__search search-toggler icon-magnifying-glass"
-                          onClick={togglePopup}
-                        ></Link>
-                      </div>
+                     
                       <div
                         className="navSidebar-button-box"
                         onClick={() => setIsOpenSideMenu(true)}
@@ -519,7 +513,7 @@ const HeaderThree = () => {
           </nav>
         </div>
         <div
-          className={` ${mobileMenu ? "menu-backdrop" : ""}`}
+          className={` ${mobileMenu ? "menu-backdrop" : ""}`}   
           onClick={mobileMenuClose}
         ></div>
         {isOverlayActive && (
@@ -527,31 +521,7 @@ const HeaderThree = () => {
         )}
         {/* <!-- End Mobile Menu --> */}
       </div>
-      <div className={`search-popup ${isActive ? "active" : ""}`} id="home-two">
-        <div
-          className="search-popup__overlay search-toggler"
-          onClick={togglePopup}
-        >
-          <div className="search-popup__close-icon">
-            <span className="icon-plus"></span>
-          </div>
-        </div>
-        <div className="search-popup__content">
-          <form action="#">
-            <label htmlFor="search" className="sr-only">
-              search here
-            </label>
-            <input type="text" id="search" placeholder="Search Here..." />
-            <button
-              type="submit"
-              aria-label="search submit"
-              className="btn-box"
-            >
-              <i className="icon-magnifying-glass"></i>
-            </button>
-          </form>
-        </div>
-      </div>
+     
 
       <div
         className={`xs-sidebar-group info-group info-sidebar ${
