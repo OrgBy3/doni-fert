@@ -15,6 +15,7 @@ import Testimonial from "~/components/Section/Home-1/Testimonial";
 import Video from "~/components/Section/Home-1/Video";
 import WorkingProcess from "~/components/Section/Home-1/WorkingProcess/WorkingProcess";
 import ContactUsSection from "~/components/Section/Contact/ContactUsSection";
+import AboutSection from "~/components/Section/About/AboutSection";
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
       <div className="fix">
         <HeaderThree />
         <Hero />
-        <About />
+        <AboutSection />
         <ChooseUs />
         <Fact />
         <Blog/>

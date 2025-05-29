@@ -149,26 +149,6 @@ const HeaderThree = () => {
                           </ul>
                         </div>
                       </div>
-
-                      <div className="main-header-three__top-right">
-                        <div className="title">
-                          <p>Get Our Socials</p>
-                        </div>
-                        <div className="social-links">
-                          <Link href="#">
-                            <span className="icon-facebook"></span>
-                          </Link>
-                          <Link href="#">
-                            <span className="icon-twitter"></span>
-                          </Link>
-                          <Link href="#">
-                            <span className="icon-instagram"></span>
-                          </Link>
-                          <Link href="#">
-                            <span className="icon-linkedin"></span>
-                          </Link>
-                        </div>
-                      </div>
                     </div>
                   </div>
 
@@ -206,7 +186,7 @@ const HeaderThree = () => {
                               </li>
                               <li>
                                 <Link href="cargo-transport ">
-                                  Cargo Transport
+                                  Cargo Transport   
                                 </Link>
                               </li>
                               <li>
