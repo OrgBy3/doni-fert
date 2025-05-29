@@ -1,9 +1,9 @@
 import Footer from "~/components/Section/Common/Footer";
 import Header from "~/components/Section/Common/Header";
 import About from "~/components/Section/Home-1/About";
-import Blog from "~/components/Section/Home-1/Blog";
+import Blog from "~/components/Section/Blog/Blog";
 import ChooseUs from "~/components/Section/Home-1/ChooseUs/ChooseUs";
-import Cta from "~/components/Section/Home-1/Cta/Cta";
+import Cta from "~/components/Section/Contact/ContactUsSection";
 import Fact from "~/components/Section/Home-1/Fact/Fact";
 import Faq from "~/components/Section/Home-1/Faq/Faq";
 import Hero from "~/components/Section/Home-1/Hero";
@@ -14,6 +14,7 @@ import Team from "~/components/Section/Home-1/Team";
 import Testimonial from "~/components/Section/Home-1/Testimonial";
 import Video from "~/components/Section/Home-1/Video";
 import WorkingProcess from "~/components/Section/Home-1/WorkingProcess/WorkingProcess";
+import ContactUsSection from "~/components/Section/Contact/ContactUsSection";
 
 export default function Home() {
   return (
@@ -22,18 +23,10 @@ export default function Home() {
         <Header />
         <Hero />
         <About />
-        <Service />
-        <Video />
-        <WorkingProcess />
-        <Cta />
         <ChooseUs />
         <Fact />
-        <RecentProjects />
-        <RequestService />
-        <Testimonial />
-        <Team />
-        <Faq />
-        <Blog />
+        <Blog/>
+        <ContactUsSection/>
         <Footer />
       </div>
     </div>

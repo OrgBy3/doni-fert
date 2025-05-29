@@ -1223,7 +1223,7 @@ Sidebar Css
 .blog-two--three--blog {
     position: relative;
     display: block;
-    padding-bottom: 120px;
+    padding-bottom: 0px;
 }
 
 .blog-two--three--blog .blog-two__single {

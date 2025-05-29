@@ -15,40 +15,8 @@ const Footer = () => {
       ></div>
       <div className="footer-main padding">
         <div className="container">
-          <div className="footer-one__top">
-            <div className="footer-one__top-inner">
-              <div className="logo-box">
-                <Link href="/">
-                  <BrandLogo imageSrc="/img/resource/logo-2.png" />
-                </Link>
-              </div>
-              <div className="footer-one__top-right">
-                <div className="text">
-                  <p>
-                    Subscribe to our weekly newsletter to get <br />
-                    information and promotion on your inbox
-                  </p>
-                </div>
-                <div className="footer-one__top-subscribe">
-                  <form className="footer-one__top-subscribe-form" action="#">
-                    <input
-                      type="email"
-                      name="email"
-                      placeholder="Enter Your Email"
-                      style={{ backgroundColor: "#0d4250" }}
-                    />
-                    <button type="submit" className="thm-btn">
-                      <span className="txt">Subscribe </span>
-                      <i className="icon-up-right-arrow"></i>
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </div>
-
           <div className="footer-main__bottom padding-top">
-            <div className="row">
+            <div className="row"> 
               <div
                 className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
                 data-wow-delay=".1s"
