@@ -12,5 +12,32 @@
     "pages": "Pages",
     "blog": "Blog",
     "contact": "Contact"
-  }
+  },
+
+  "contactUs.getInTouch": "Get in touch",
+  "contactUs.contactUs": "Contact Us",
+  "contactUs.callUs": "Call Us",
+  "contactUs.phone": "+383 44 114 081",
+  "contactUs.location": "Location",
+  "contactUs.actualLocation": "St. Fetah Kiqina Baice, 38000 Gllogoc, Kosovo",
+  "contactUs.email": "Email",
+  "contactUs.actualEmail1": "donifert@gmail.com",
+  "contactUs.actualEmail2": "donifert@hotmail.com",
+  "contactUs.openingTime": "Opening Time",
+  "contactUs.workingDays": "Monday - Saturday 08am to 05pm",
+  "contactUsForm.title": "Feel free to write Us",
+  "contactUsForm.name": "Full Name",
+  "contactUsForm.email": "Email",
+  "contactUsForm.phone": "Phone",
+  "contactUsForm.company": "Company",
+  "contactUsForm.message": "Message",
+  "contactUsForm.SendMessage": "Send Message",
+  "contactUsForm.note": "Note: ",
+  "contactUsForm.noteText": "All messages will be sent directly via WhatsApp. Please ensure your contact details are correct before submitting."
+  
+  
+
+
 }
+
+

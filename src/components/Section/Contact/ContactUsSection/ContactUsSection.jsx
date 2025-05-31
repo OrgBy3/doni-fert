@@ -1,6 +1,12 @@
+'use client';
 import Link from "next/link";
+import { useTranslation } from "react-i18next";
+import i18n from "../../../../i18n.client";
 
 const ContactUsSection = () => {
+
+    const { t } = useTranslation("common");
+
     return (
         <section className="contact-page padding">
             <div className="shape1 float-bob-y"><img src="/img/shape/contact-page-shape1.png" alt="" /></div>
@@ -14,9 +20,9 @@ const ContactUsSection = () => {
                                     <div className="icon">
                                         <img src="/img/icon/title-marker-4.png" alt="" />
                                     </div>
-                                    <h5>Get In Touch</h5>
+                                    <h5>{t("contactUs.getInTouch")}</h5>
                                 </div>
-                                <h2>Contact Us Today</h2>
+                                <h2>{t("contactUs.contactUs")}</h2>
                             </div>
 
                             <ul>
@@ -26,8 +32,8 @@ const ContactUsSection = () => {
                                     </div>
 
                                     <div className="text-box">
-                                        <p>Call Us Toll Free</p>
-                                        <h2><Link href="tel:123456789">+123 556 8824</Link></h2>
+                                        <p>{t("contactUs.callUs")}</p>
+                                        <h2><Link href="https://wa.me/+38344114081" target="_blank">{t("contactUs.phone")}</Link></h2>
                                     </div>
                                 </li>
 
@@ -37,8 +43,8 @@ const ContactUsSection = () => {
                                     </div>
 
                                     <div className="text-box">
-                                        <p>London Office</p>
-                                        <h2>4517 Washington Ave. <br /> Manchester</h2>
+                                        <p>{t("contactUs.location")}</p>
+                                        <h2>{t("contactUs.actualLocation")}</h2>
                                     </div>
                                 </li>
 
@@ -48,8 +54,21 @@ const ContactUsSection = () => {
                                     </div>
 
                                     <div className="text-box">
-                                        <p>Email Us</p>
-                                        <h2><Link href="mailto:yourmail@email.com">translo@Support.com</Link></h2>
+                                        <p>{t("contactUs.email")}</p>
+                                        <h2>
+                                            <ul>
+                                                <li>
+                                                    <Link href="mailto:donifert@gmail.com" passHref legacyBehavior>
+                                                <a target="_blank" rel="noopener noreferrer">{t("contactUs.actualEmail1")}</a>
+                                            </Link> 
+                                                </li>
+                                                <li>
+                                                    <Link href="mailto:donifert@hotmail.com" passHref legacyBehavior>
+                                                <a target="_blank" rel="noopener noreferrer">{t("contactUs.actualEmail2")}</a>
+                                            </Link>
+                                                </li>
+                                            </ul>
+                                        </h2>
                                     </div>
                                 </li>
 
@@ -59,9 +78,8 @@ const ContactUsSection = () => {
                                     </div>
 
                                     <div className="text-box">
-                                        <p>Opening Time</p>
-                                        <h2>Thursday - Saturday <br />
-                                            10am : 08pm</h2>
+                                        <p>{t("contactUs.openingTime")}</p>
+                                        <h2>{t("contactUs.workingDays")}</h2>
                                     </div>
                                 </li>
                             </ul>
@@ -71,43 +89,58 @@ const ContactUsSection = () => {
                     <div className="col-xl-7">
                         <div className="contact-page__form-box">
                             <div className="title">
-                                <h2>Feel free to write Us</h2>
+                                <h2>{t("contactUsForm.title")}</h2>
                             </div>
 
-                            <form id="contact-form" action="/inc/mail.php" method="POST">
+                            <form id="contact-form"
+                                onSubmit={(e) => {
+                                    e.preventDefault();
+                                    const form = e.target;
+                                    const name = form.name.value;
+                                    const email = form.email.value;
+                                    const number = form.number.value;
+                                    const company = form.company.value;
+                                    const message = form.message.value;
+
+                                    const text = `Full Name: ${name}%0AEmail: ${email}%0APhone: ${number}%0ACompany: ${company}%0AMessage: ${message}`;
+                                    const phoneNumber = '38344114081';
+
+                                    window.open(`https://wa.me/${phoneNumber}?text=${text}`, '_blank');
+                                    }}
+                                >
                                 <div className="row">
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                         <div className="contact-page__input-box">
-                                            <input type="text" placeholder="Full Name" name="name" required />
+                                            <input type="text" placeholder={t("contactUsForm.name")} name="name" required />
                                         </div>
                                     </div>
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                         <div className="contact-page__input-box">
-                                            <input type="email" placeholder="Email" name="email" required />
+                                            <input type="email" placeholder={t("contactUsForm.email")} name="email" required />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                         <div className="contact-page__input-box">
-                                            <input type="number" placeholder="Mobile" name="number" />
+                                            <input type="number" placeholder={t("contactUsForm.phone")} name="number" required/>
                                         </div>
                                     </div>
 
                                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                         <div className="contact-page__input-box">
-                                            <input type="text" placeholder="Company" name="company" />
+                                            <input type="text" placeholder={t("contactUsForm.company")} name="company" />
                                         </div>
                                     </div>
                                 </div>
                                 <div className="row">
                                     <div className="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                         <div className="contact-page__input-box">
-                                            <textarea name="message" placeholder="Messege"></textarea>
+                                            <textarea name="message" placeholder={t("contactUsForm.message")}></textarea>
                                         </div>
                                         <div className="contact-page__btn">
                                             <button type="submit" className="thm-btn" data-loading-text="Please wait...">
-                                                <span className="txt">Sand Massage</span>
+                                                <span className="txt">{t("contactUsForm.SendMessage")}</span>
                                             </button>
                                         </div>
                                     </div>
@@ -116,8 +149,7 @@ const ContactUsSection = () => {
                             <p className="ajax-response mb-0"></p>
 
                             <div className="contact-page__form-box-text">
-                                <p><span>Nots:</span> Packages and web page editors now use Lorem Ipsum as their default
-                                    model textlayout.</p>
+                                <p><span>{t("contactUsForm.note")}</span>{t("contactUsForm.noteText")}</p>
                             </div>
                         </div>
                     </div>

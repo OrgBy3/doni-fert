@@ -12,6 +12,28 @@
     "pages": "Faqe",
     "blog": "Blog",
     "contact": "Kontakt"
-  }
+  },
+
+  "contactUs.getInTouch": "Kontaktoni ekipin tonë",
+  "contactUs.contactUs": "Na Kontaktoni",
+  "contactUs.callUs": "Na Telefononi",
+  "contactUs.phone": "+383 44 114 081",
+  "contactUs.location": "Lokacioni",
+  "contactUs.actualLocation": "Rr. Fetah Kiqina Baice, 38000 Gllogoc, Kosovo",
+  "contactUs.email": "Email",
+  "contactUs.actualEmail1": "donifert@gmail.com",
+  "contactUs.actualEmail2": "donifert@hotmail.com",
+  "contactUs.openingTime": "Orari Punës",
+  "contactUs.workingDays": "E Hënë - E Shtunë 08:00 deri 17:00",
+  "contactUsForm.title": "Na kontaktoni për më shumë detaje",
+  "contactUsForm.name": "Emri dhe Mbiemri",
+  "contactUsForm.email": "Email",
+  "contactUsForm.phone": "Numri Telefonit",
+  "contactUsForm.company": "Kompania",
+  "contactUsForm.message": "Informta Shtesë",
+  "contactUsForm.SendMessage": "Dërgo Mesazhin",
+  "contactUsForm.note": "Shënim: ",
+  "contactUsForm.noteText": "Të gjitha mesazhet do të dërgohen direkt përmes WhatsApp. Ju lutemi sigurohuni që të dhënat tuaja të janë të sakta para se ti dërgoni."
+  
 }
 

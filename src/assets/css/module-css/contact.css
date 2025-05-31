@@ -113,6 +113,10 @@ Contact One Css
     font-weight: 500;
 }
 
+.contact-page__contact-info ul li .text-box h2 ul li  {
+    margin-bottom: 0px;
+}
+
 .contact-page__contact-info ul li .text-box h2 a {
     color: var(--thm-black);
 }
