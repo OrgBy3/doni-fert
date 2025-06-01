@@ -1,7 +1,13 @@
+"use client";
+import { useTranslation } from "react-i18next";
+import i18n from "../../../../i18n.client";
 import Link from "next/link";
 import CircleTextThree from "~/components/Ui/Components/CircleTextThree";
 
 const AboutSection = () => {
+
+     const { t } = useTranslation("common");
+
     return (
         <section className="about-three padding">
             <div className="container">
@@ -16,7 +22,6 @@ const AboutSection = () => {
                             <div className="about-three__img2 wow fadeInRight" data-wow-delay=".1s">
                                 <img src="/img/about/about-v3-img2.jpg" alt="" />
                             </div>
-                            <CircleTextThree />
                         </div>
                     </div>
                     {/* <!--End About Three Img--> */}
@@ -29,27 +34,23 @@ const AboutSection = () => {
                                     <div className="icon">
                                         <img src="/img/icon/title-marker-4.png" alt="" />
                                     </div>
-                                    <h5>About Company</h5>
+                                    <h5>{t("aboutUs.aboutUs")}</h5>
                                 </div>
-                                <h2>The Best Transport & <br />
-                                    Logistic Company</h2>
+                                <h2>{t("aboutUs.mainTitle")}</h2>
                             </div>
                             <div className="about-three__content-text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Quis gravida risus suspend ultrices
-                                    gravida.</p>
+                                <p><b>{t("aboutUs.name")}</b> {t("aboutUs.mainDescription")}</p>
                             </div>
 
                             <ul className="about-three__content-list">
                                 <li>
                                     <div className="icon-box">
-                                        <span className="icon-global-network"></span>
+                                        <span className="icon-esteemed-company"></span>
                                     </div>
 
                                     <div className="text-box">
-                                        <h3>Fast Worldwide Delivery</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br />
-                                            do eiusmod of tempor labore.</p>
+                                        <h3>{t("aboutUs.title1")}</h3>
+                                        <p>{t("aboutUs.description1")}</p>
                                     </div>
                                 </li>
 
@@ -59,33 +60,11 @@ const AboutSection = () => {
                                     </div>
 
                                     <div className="text-box">
-                                        <h3>Safe And Secure Delivery</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing <br />
-                                            do eiusmod of tempor labore.</p>
+                                        <h3>{t("aboutUs.title2")}</h3>
+                                        <p>{t("aboutUs.description2")}</p>
                                     </div>
                                 </li>
                             </ul>
-
-                            <div className="about-three__content-bottom">
-                                <div className="btn-box">
-                                    <Link className="thm-btn" href="about">
-                                        <span className="txt">Know More About Us</span>
-                                    </Link>
-                                </div>
-
-                                <div className="author-box">
-                                    <div className="img-box">
-                                        <img src="/img/about/about-v2-img4-.jpg" alt="" />
-                                    </div>
-
-                                    <div className="text-box">
-                                        <p>Need Help?</p>
-                                        <h3><Link href="tel:123456789">+00 264 566 579</Link></h3>
-
-                                    </div>
-                                </div>
-                            </div>
-
                         </div>
                     </div>
                     {/* <!--End About Three Content--> */}

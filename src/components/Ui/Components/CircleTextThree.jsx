@@ -19,7 +19,7 @@ const CircleTextThree = () => {
                     </defs>
                     <text className="circle-text3" x="0" y="0" textAnchor="middle">
                         <textPath xlinkHref="#textPath" startOffset="50%">
-                            Award Winning Company - Since 1980 -
+                            Gurthyesi Doni Fert Since - 2001
                         </textPath>
                     </text>
                 </svg>
