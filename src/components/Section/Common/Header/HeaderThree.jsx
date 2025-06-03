@@ -157,7 +157,7 @@ const HeaderThree = () => {
                       <div className="navbar-wrap main-menu">
                         <ul className="navigation">
                           <li className="active menu-item-has-children">
-                            <Link href="#">Home</Link>
+                            <Link href="#">{t("nav.home")}</Link>
                             <ul className="sub-menu">
                               <li>
                                 <Link href="/">Home One</Link>
@@ -171,13 +171,13 @@ const HeaderThree = () => {
                             </ul>
                           </li>
                           <li>
-                            <Link href="about">About</Link>
+                            <Link href="about">{t("nav.about")}</Link>
                           </li>
                           <li className="menu-item-has-children">
-                            <Link href="#">Services</Link>
+                            <Link href="#">{t("nav.services")}</Link>
                             <ul className="sub-menu">
                               <li>
-                                <Link href="services ">Services</Link>
+                                <Link href="services ">12313</Link>
                               </li>
                               <li>
                                 <Link href="road-transport ">
@@ -239,7 +239,7 @@ const HeaderThree = () => {
                             </ul>
                           </li>
                           <li>
-                            <Link href="contact ">Contact</Link>
+                            <Link href="contact ">{t("nav.contact")}</Link>
                           </li>
                         </ul>
                       </div>
@@ -251,9 +251,6 @@ const HeaderThree = () => {
                         className="navSidebar-button-box"
                         onClick={() => setIsOpenSideMenu(true)}
                       >
-                        <Link className="navSidebar-button icon2" href="#">
-                          <span className="icon-menu"></span>
-                        </Link>
                       </div>
                       <div className="main-header__language-switcher">
                         <Select
@@ -261,6 +258,7 @@ const HeaderThree = () => {
                           options={options}
                           value={selected}
                           onChange={handleChange}
+                          isSearchable={false}
                           styles={{
                             control: (provided) => ({
                               ...provided,

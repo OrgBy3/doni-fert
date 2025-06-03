@@ -14,9 +14,14 @@
     "contact": "Kontakt"
   },
 
+  "LandingPage": "Ne jemi liderët",
+   "LandingPage.slogan1": "Fuqi dhe Besueshmëri",
+   "LandingPage.slogan2": "Partneri Juaj Ideal",
+   "LandingPage.name": "DoniFERT",
+
   "aboutUs.aboutUs": "Rreth Nesh",
   "aboutUs.mainTitle": "Liderë në Nxjerrjen dhe Përpunimin e Gurit",
-  "aboutUs.name": "Doni Fert",
+  "aboutUs.name": "DoniFERT",
   "aboutUs.mainDescription": "është një kompani lider në nxjerrjen dhe përpunimin e gurit, e njohur për cilësinë e produkteve dhe profesionalizmin në shërbimet që ofron. Me përvojë të gjerë, ofrojmë materiale të qëndrueshme të përshtatshme për projekte ndërtimi dhe infrastrukture. Përkushtimi ynë ndaj klientëve dhe respektimi i standardeve na bëjnë partnerin ideal për çdo projekt.",
   "aboutUs.title1": "Produktiviteti dhe Cilësia",
   "aboutUs.description1": "Punojmë me procese të optimizuara dhe pajisje moderne për të siguruar prodhim të shpejtë dhe materiale me cilësi të lartë që përmbushin kërkesat më të larta të industrisë.",
