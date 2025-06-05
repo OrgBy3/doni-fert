@@ -1,8 +1,10 @@
-"use client";
-import ServiceCardTwo from "~/components/Ui/Cards/ServiceCardTwo";
-import data from '~/public/db/serviceDataTwo.json'
+'use client';
+import { useTranslation } from 'react-i18next';
+import ServiceCardTwo from '~/components/Ui/Cards/ServiceCardTwo';
 
 const ChooseUs = () => {
+  const { t } = useTranslation('common');
+  const cards = t('cards', { returnObjects: true });
 
   return (
     <section className="choose-us-one padding">
@@ -10,13 +12,13 @@ const ChooseUs = () => {
         <div className="sec-title text-center">
           <div className="sub-title">
             <h5>
-              <span className="icon-right-arrow-1"></span> Why Choose Us
+              <span className="icon-right-arrow-1"></span> {t('why_choose_us')}
             </h5>
           </div>
-          <h2>Some reasons to choose us</h2>
+          <h2>{t('some_reasons')}</h2>
         </div>
         <div className="row">
-          {data?.map((item, index) => (
+          {cards.map((item, index) => (
             <div
               className="col-xl-4 col-lg-6 col-md-6 wow fadeInUp"
               data-wow-delay=".1s"

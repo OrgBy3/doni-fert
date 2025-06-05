@@ -47,7 +47,41 @@
   "contactUsForm.message": "Informta Shtesë",
   "contactUsForm.SendMessage": "Dërgo Mesazhin",
   "contactUsForm.note": "Shënim: ",
-  "contactUsForm.noteText": "Të gjitha mesazhet do të dërgohen direkt përmes WhatsApp. Ju lutemi sigurohuni që të dhënat tuaja të janë të sakta para se ti dërgoni."
+  "contactUsForm.noteText": "Të gjitha mesazhet do të dërgohen direkt përmes WhatsApp. Ju lutemi sigurohuni që të dhënat tuaja të janë të sakta para se ti dërgoni.",
   
+  "why_choose_us": "Pse të na zgjidhni ne",
+  "some_reasons": "Disa arsye për të na zgjedhur",
+  "cards": [
+    {
+      "icon": "icon-global-network",
+      "title": "Rrjeti Global",
+      "description": "Freight Consolidators lidh biznesin tuaj me qendra ndërkombëtare si SHBA."
+    },
+    {
+      "icon": "icon-right-time-delivery",
+      "title": "Dorëzim në kohë",
+      "description": "Ju bëni porosinë, dhe ne kujdesemi për gjithçka nga tërheqja deri tek doganat."
+    },
+    {
+      "icon": "icon-support",
+      "title": "Mbështetje 24 orë",
+      "description": "Ekipi ynë i përkushtuar është në detyrë, duke ndjekur çdo hap të dërgesës tuaj 24/7."
+    },
+    {
+      "icon": "icon-special-shipments",
+      "title": "Dërgesa Speciale",
+      "description": "Nëse mallrat tuaja kanë nevoja të veçanta për transport ose ruajtje, kemi ekspertizën e duhur."
+    },
+    {
+      "icon": "icon-enter-product-details",
+      "title": "Zgjidhje të personalizuara",
+      "description": "Ofrjmë zgjidhje të ndërthurura për të gjitha portet detare dhe aeroportet në botë."
+    },
+    {
+      "icon": "icon-esteemed-company",
+      "title": "Kompani e vlerësuar",
+      "description": "Më shumë se 4099 klientë në botë na kanë zgjedhur për shkak të konkurrencës sonë."
+    }
+  ]
 }
 
