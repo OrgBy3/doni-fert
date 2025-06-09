@@ -53,6 +53,46 @@
   "some_reasons": "Disa arsye për të na zgjedhur",
   "cards": [
     {
+      "img2": "/img/blog/blog-v3-img1.jpg",
+      "title": "Testi i Abrasionit Los Angeles",
+      "description": "Guri ynë është testuar nga Instituti për Kërkime Rrugore dhe Ndërtimore (INRO) duke përdorur testin e abrasionit Los Angeles, sipas standardit EN 12620:2002. Rezultatet konfirmojnë qëndrueshmërinë dhe forcën e tij.",
+      "category1": "Rezultati: ",
+      "result1": "LA = 17.83%",
+      "category2": "Klasifikimi: ",
+      "result2": "LA20 – Qëndrueshmëri e lartë, e përshtatshme për beton dhe ndërtim rrugësh"
+    },
+    {
+      "img2": "/img/blog/blog-v3-img2.jpg",
+      "title": "Testi i Abrasionit Micro-Deval",
+      "description": "Guri ynë është testuar duke u rrotulluar 14,000 herë në një tambur me ujë dhe sfera çeliku, duke simuluar përdorim të rëndë dhe stres afatgjatë të ngjashëm me atë që përballet në rrugë apo hekurudha.",
+      "category1": "Rezultati: ",
+      "result1": "14.6%",
+      "category2": "Përfundimi: ",
+      "result2": "Cilësi të lartë dhe përmbush standardet europiane për përdorim në ndërtim"
+    },
+    {
+      "img2": "/img/blog/blog-v3-img3.jpg",
+      "title": "Testimi i Cilësisë së Gurit-INRO",
+      "category1": "Forca në gjendje të thatë: ",
+      "result1": "82.3 N/mm² (Standardi: ≥ 80)",
+      "category2": "Forca në gjendje të lagësht: ",
+      "result2": "77.23 N/mm² (Standardi: ≥ 64)",
+      "category3": "Masa vëllimore: ",
+      "result3": "2.68 g/cm³ (2.0 – 3.0 g/cm³)",
+      "category4": "Dendësia specifike: ",
+      "result4": "2.76 g/cm³",
+      "category5": "Thithja e ujit: ",
+      "result5": "0.14% (Maksimumi: 1.0%)",
+      "category6": "Kompaktësia: ",
+      "result6": "0.97",
+      "category7": "Poroziteti: ",
+      "result7": "3.0%"
+    }
+  ],
+
+ 
+  "blog": [
+    {
       "icon": "icon-global-network",
       "title": "Rrjeti Global",
       "description": "Freight Consolidators lidh biznesin tuaj me qendra ndërkombëtare si SHBA."
@@ -83,5 +123,9 @@
       "description": "Më shumë se 4099 klientë në botë na kanë zgjedhur për shkak të konkurrencës sonë."
     }
   ]
+
+  
+
+
 }
 

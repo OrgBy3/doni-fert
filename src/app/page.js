@@ -24,9 +24,9 @@ export default function Home() {
         <HeaderThree />
         <Hero />
         <AboutSection />
-        <ChooseUs />
-        <Fact />
         <Blog/>
+        <Fact />
+        <ChooseUs />
         <ContactUsSection/>
         <Footer />
       </div>

@@ -9,26 +9,38 @@ const BlogCardFour = ({ item }) => {
                         <div className="name">
                             <p>{item?.name}</p>
                         </div>
-                        <div className="overlay-img">
-                            <img src={item?.img1} alt="#" />
-                        </div>
                     </div>
                     <div className="inner">
-                        <img src={item?.img2} alt="#" />
+                        <img src={item?.img2} alt="" />
                     </div>
                 </div>
 
                 <div className="blog-two__single-content">
-                    <h2><Link href={item?.link}>{item?.title}</Link></h2>
+                    <h2>{item?.title}</h2>
                     <ul className="meta-box">
-                        <li><Link href="#">{item?.category}</Link></li>
-                        <li>-</li>
-                        <li>{item?.date}</li>
+                        <li>{item?.description}</li>
                     </ul>
-
-                    <div className="btn-box">
-                        <Link href={item?.link}>Read More <span className="icon-right-arrow-5"></span></Link>
-                    </div>
+                    <ul className="meta-box">
+                        <li><b>{item?.category1}</b>{item?.result1}</li>
+                    </ul>
+                    <ul className="meta-box">
+                        <li><b>{item?.category2}</b>{item?.result2}</li>
+                    </ul>
+                    <ul className="meta-box">
+                        <li><b>{item?.category3}</b>{item?.result3}</li>
+                    </ul>
+                    <ul className="meta-box">
+                        <li><b>{item?.category4}</b>{item?.result4}</li>
+                    </ul>
+                    <ul className="meta-box">
+                        <li><b>{item?.category5}</b>{item?.result5}</li>
+                    </ul>
+                    <ul className="meta-box">
+                        <li><b>{item?.category6}</b>{item?.result6}</li>
+                    </ul>
+                    <ul className="meta-box">
+                        <li><b>{item?.category7}</b>{item?.result7}</li>
+                    </ul>
                 </div>
             </div>
         </div>

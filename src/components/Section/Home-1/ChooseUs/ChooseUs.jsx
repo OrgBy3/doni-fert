@@ -1,10 +1,12 @@
+
+//BLOG SECTION HERE
 'use client';
 import { useTranslation } from 'react-i18next';
 import ServiceCardTwo from '~/components/Ui/Cards/ServiceCardTwo';
 
 const ChooseUs = () => {
   const { t } = useTranslation('common');
-  const cards = t('cards', { returnObjects: true });
+  const cards = t('blog', { returnObjects: true });
 
   return (
     <section className="choose-us-one padding">

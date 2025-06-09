@@ -49,12 +49,52 @@
   "contactUsForm.note": "Note: ",
   "contactUsForm.noteText": "All messages will be sent directly via WhatsApp. Please ensure your contact details are correct before submitting.",
   
-  
-
-
   "why_choose_us": "Why Choose Us",
   "some_reasons": "Some reasons to choose us",
   "cards": [
+  {
+    "img2": "/img/blog/blog-v3-img1.jpg",
+    "title": "Los Angeles Abrasion Test",
+    "description": "Our gravel has been tested by the Institute for Road and Construction Research (INRO) using the Los Angeles abrasion test, following the EN 12620:2002 standard. The results confirm its strength and durability.",
+    "category1": "Result: ",
+    "result1": "LA = 17.83%",
+    "category2": "Classification: ",
+    "result2": "LA20 – High durability, suitable for concrete and road construction"
+  },
+  {
+   
+    "img2": "/img/blog/blog-v3-img2.jpg",
+    "title": "Micro-Deval Abrasion Test",
+    "description": "Our gravel was tested by spinning it 14,000 times in a drum with water and steel balls, simulating heavy use and long-term stress like it would face in roads or railways.",
+    "category1": "Result: ",
+    "result1": "14.6%",
+    "category2": "Conclusion: ",
+    "result2": "The gravel is high quality and meets European standards for construction use"
+  },
+  {
+   
+    "img2": "/img/blog/blog-v3-img3.jpg",
+    "title": "Gravel Quality Test-(INRO)",
+    "category1": "Dry Strength: ",
+    "result1": "82.3 N/mm² (Standard: ≥ 80)",
+    "category2": "Wet Strength: ",
+    "result2": "77.23 N/mm² (Standard: ≥ 64)",
+    "category3": "Bulk density: ",
+    "result3": "2.68 g/cm³ (Within range 2.0 – 3.0 g/cm³)",
+    "category4": "Specific density: ",
+    "result4": "2.76 g/cm³",
+    "category5": "Water absorption: ",
+    "result5": "0.14% (Max: 1.0%)",
+    "category6": "Compactness: ",
+    "result6": "0.97",
+    "category7": "Porosity: ",
+    "result7": "3.0%"
+  }
+],
+
+
+  
+  "blog": [
     {
       "icon": "icon-global-network",
       "title": "Global Network",
@@ -86,6 +126,11 @@
       "description": "More than 4099 clients across the world have chosen us as their freight partner, because of the competitive."
     }
   ]
+
+
+  
+  
+
 }
 
 
