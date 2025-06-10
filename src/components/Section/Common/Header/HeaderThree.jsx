@@ -19,7 +19,6 @@ const HeaderThree = () => {
   const [blog, setBlog] = useState(false);
   const [isOverlayActive, setIsOverlayActive] = useState(false);
 
-  
   const initialSelected = options.find((option) => option.label === "EN");
 
   const [selected, setSelected] = useState(initialSelected);
@@ -27,8 +26,8 @@ const HeaderThree = () => {
 
   const handleChange = (selectedOption) => {
     setSelected(selectedOption);
-    i18n.changeLanguage(selectedOption.value); 
-  };    
+    i18n.changeLanguage(selectedOption.value);
+  };
 
   const mobileMenuOpen = () => {
     setMobileMenu(true);
@@ -96,7 +95,6 @@ const HeaderThree = () => {
                       <img src="/img/resource/logo-6.png" alt="Logo" />
                     </Link>
                   </div>
-
                   <div className="main-header-three__top">
                     <div
                       className="main-header-three__top-pattern"
@@ -186,7 +184,7 @@ const HeaderThree = () => {
                               </li>
                               <li>
                                 <Link href="cargo-transport ">
-                                  Cargo Transport   
+                                  Cargo Transport
                                 </Link>
                               </li>
                               <li>
@@ -246,12 +244,10 @@ const HeaderThree = () => {
                     </div>
 
                     <div className="main-header-three__bottom-right">
-                     
                       <div
                         className="navSidebar-button-box"
                         onClick={() => setIsOpenSideMenu(true)}
-                      >
-                      </div>
+                      ></div>
                       <div className="main-header__language-switcher">
                         <Select
                           className="selectmenu wide"
@@ -290,10 +286,32 @@ const HeaderThree = () => {
             >
               <i className="fas fa-times"></i>
             </div>
+
             <div className="nav-logo">
               <Link href="/">
                 <img src="/img/resource/mobile-menu-logo3.png" />
               </Link>
+            </div>
+            <div className="main-header__language-switcher">
+              <Select
+                className="selectmenu wide"
+                options={options}
+                value={selected}
+                onChange={handleChange}
+                isSearchable={false}
+                styles={{
+                  control: (provided) => ({
+                    ...provided,
+                    height: "45px",
+                    fontSize: "14px",
+                  }),
+                  option: (provided) => ({
+                    ...provided,
+                    color: "#fff",
+                    backgroundColor: "#FF5E15",
+                  }),
+                }}
+              />
             </div>
             <div className="menu-outer">
               <ul className="navigation">
@@ -491,7 +509,7 @@ const HeaderThree = () => {
           </nav>
         </div>
         <div
-          className={` ${mobileMenu ? "menu-backdrop" : ""}`}   
+          className={` ${mobileMenu ? "menu-backdrop" : ""}`}
           onClick={mobileMenuClose}
         ></div>
         {isOverlayActive && (
@@ -499,7 +517,6 @@ const HeaderThree = () => {
         )}
         {/* <!-- End Mobile Menu --> */}
       </div>
-     
 
       <div
         className={`xs-sidebar-group info-group info-sidebar ${
