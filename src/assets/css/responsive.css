@@ -1952,12 +1952,11 @@
 		margin-top: 65px;
 	}
 
-	.sec-title-style3 h2 br {
-		display: none;
-	}
+	
 
 	.sec-title-style3 h2 {
 		font-size: 30px;
+		text-align: center;
 	}
 
 	.about-three__content-bottom {

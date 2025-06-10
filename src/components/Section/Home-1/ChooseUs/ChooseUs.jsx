@@ -14,10 +14,10 @@ const ChooseUs = () => {
         <div className="sec-title text-center">
           <div className="sub-title">
             <h5>
-              <span className="icon-right-arrow-1"></span> {t('why_choose_us')}
+              <span className="icon-right-arrow-1"></span> {t('blogTittle')}
             </h5>
           </div>
-          <h2>{t('some_reasons')}</h2>
+          <h2>{t('blogTittle')}</h2>
         </div>
         <div className="row">
           {cards.map((item, index) => (

@@ -62,7 +62,6 @@
     "result2": "LA20 – High durability, suitable for concrete and road construction"
   },
   {
-   
     "img2": "/img/blog/blog-v3-img2.jpg",
     "title": "Micro-Deval Abrasion Test",
     "description": "Our gravel was tested by spinning it 14,000 times in a drum with water and steel balls, simulating heavy use and long-term stress like it would face in roads or railways.",
@@ -72,7 +71,6 @@
     "result2": "The gravel is high quality and meets European standards for construction use"
   },
   {
-   
     "img2": "/img/blog/blog-v3-img3.jpg",
     "title": "Gravel Quality Test-(INRO)",
     "category1": "Dry Strength: ",
@@ -92,44 +90,41 @@
   }
 ],
 
+  "serviceTittle": "Services",
+  "serviceProducts": "Our Products",
+  "serviceProduct1": "0–2 mm – Fine Aggregate (Dust)",
+  "serviceProduct2": "0–4 mm – Very Fine Gravel",
+  "serviceProduct3": "4–8 mm – Fine Gravel",
+  "serviceProduct4": "8–16 mm – Medium Gravel",
+  "serviceProduct5": "16–22 mm – Coarse Gravel",
+  "serviceProduct6": "30–60 mm – Large Gravel",
+  "serviceProduct7": "0–16 mm – Mixed Fine-Medium Aggregate",
+  "serviceProduct8": "0–30 mm – Mixed Aggregate",
+  "serviceProduct9": "0–60 mm – Coarse Mixed Aggregate",
+  "serviceProduct10": "0–150 mm – Large Mixed Stone",
+  "serviceProduct11": "60–150 mm – Boulder-Sized Stone",
+  "serviceProduct12": "0–400 mm – Large Stone",
+  "serviceProduct13": "Backfill Material",
+  "serviceProduct14": "Filler for Asphalt and Concrete",
+  "serviceProductDescription1": "An ultra-fine material used for surface leveling, finishing layers, tile bedding, or as a fine filler in asphalt and mortar.",
+  "serviceProductDescription2": "Ideal for fine grading, pipe bedding, screed mixes, and landscaping layers where high compaction and smoothness are required.",
+  "serviceProductDescription3": "Recommended for light concrete applications, drainage systems, and decorative pathways. Offers good filtration and compactness.",
+  "serviceProductDescription4": "A versatile size for concrete mixes, road bases, and structural fills. Offers a balance of strength and workability.",
+  "serviceProductDescription5": "Engineered for high-load concrete and foundation bases. Common in civil works and heavy construction.",
+  "serviceProductDescription6": "Best suited for drainage fields, embankment reinforcement, and ballast in rail and road construction.",
+  "serviceProductDescription7": "A compactable all-purpose blend used for paving base layers, walkways, and under-concrete foundations.",
+  "serviceProductDescription8": "Widely used in road construction and site grading. Combines fine and coarse particles for stable compaction.",
+  "serviceProductDescription9": "Heavy-duty material ideal for highway bases, reinforced embankments, and deep backfills.",
+  "serviceProductDescription10": "Used in large-scale site preparation, drainage channels, and erosion control zones. Provides stability and mass. ",
+  "serviceProductDescription11": "Perfect for protective layers, slope retention, garden landscaping, and aesthetic stone walls.",
+  "serviceProductDescription12": "Massive stones for riprap, coastal protection, riverbank reinforcement, and structural embankments.",
+  "serviceProductDescription13": "Flexible fill for trenches, pipe zones, utility bedding, and volume correction. Available in various gradations.",
+  "serviceProductDescription14": "A high-performance mineral filler used in asphalt mixtures or concrete to improve bonding and reduce air voids.",
 
-  
-  "blog": [
-    {
-      "icon": "icon-global-network",
-      "title": "Global Network",
-      "description": "Freight Consolidators connects your business with international hubs across the world such as the USA."
-    },
-    {
-      "icon": "icon-right-time-delivery",
-      "title": "Right Time Delivery",
-      "description": "You place your order, and we’ll handle the rest. From pick-up to customs clearance from tracking."
-    },
-    {
-      "icon": "icon-support",
-      "title": "24-Hour Support",
-      "description": "Our dedicated team is on the job, tracking every step of your shipment we’re available 24/7."
-    },
-    {
-      "icon": "icon-special-shipments",
-      "title": "Special Shipments",
-      "description": "If your goods have special movement, storage and handling requirements, we have the expertise."
-    },
-    {
-      "icon": "icon-enter-product-details",
-      "title": "Bespoke Solutions",
-      "description": "We provide personalised intermodal solutions to all seaports and airports around the world."
-    },
-    {
-      "icon": "icon-esteemed-company",
-      "title": "Esteemed Company",
-      "description": "More than 4099 clients across the world have chosen us as their freight partner, because of the competitive."
-    }
-  ]
-
-
-  
-  
+  "fact1": "Years Of Experience",
+  "fact2": "Daily Capacity",
+  "fact3": "Different Grain Sizes",
+  "fact4": "Storage Capacity"
 
 }
 

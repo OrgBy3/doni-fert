@@ -2,8 +2,14 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
 import React, { useEffect, useState } from "react";
+import { useTranslation } from "react-i18next";
+import i18n from "../../../../i18n.client";
 
 const Fact = () => {
+
+  const { t } = useTranslation("common");
+    
+
   const [isVisible, setIsVisible] = useState(false);
   const [AnimatedNumbers, setAnimatedNumbers] = useState(null);
   useEffect(() => {
@@ -45,7 +51,7 @@ const Fact = () => {
                   <h2 className="count d-flex">
                     <span className="odometer" >
                       {isVisible && <AnimatedNumbers
-                        animateToNumber={35} transitions={(index) => ({
+                        animateToNumber={25} transitions={(index) => ({
                           type: "spring",
                           duration: index + 0.9,
                         })} ></AnimatedNumbers>}
@@ -55,7 +61,7 @@ const Fact = () => {
                     </span>
                   </h2>
                   <div className="text">
-                    <p>Years Of Experience</p>
+                    <p>{t("fact1")}</p>
                   </div>
                 </div>
               </div>
@@ -66,17 +72,20 @@ const Fact = () => {
             >
               <div className="fact-counter-one__single">
                 <div className="inner">
-                  <h2 className="count">
-                    <span className="odometer">
+                  <h2 className="count d-flex">
+                    <span className="odometer" >
                       {isVisible && <AnimatedNumbers
-                        animateToNumber={3560} transitions={(index) => ({
+                        animateToNumber={2000} transitions={(index) => ({
                           type: "spring",
                           duration: index + 0.9,
                         })} ></AnimatedNumbers>}
                     </span>
+                    <span className="plus">
+                      m³
+                    </span>
                   </h2>
                   <div className="text">
-                    <p>Delivered Packages</p>
+                    <p>{t("fact2")}</p>
                   </div>
                 </div>
               </div>
@@ -90,14 +99,14 @@ const Fact = () => {
                   <h2 className="count">
                     <span className="odometer">
                       {isVisible && <AnimatedNumbers
-                        animateToNumber={2364} transitions={(index) => ({
+                        animateToNumber={14} transitions={(index) => ({
                           type: "spring",
                           duration: index + 0.9,
                         })} ></AnimatedNumbers>}
                     </span>
                   </h2>
                   <div className="text">
-                    <p>Satisfied Clients</p>
+                    <p>{t("fact3")}</p>
                   </div>
                 </div>
               </div>
@@ -109,17 +118,19 @@ const Fact = () => {
               <div className="fact-counter-one__single">
                 <div className="inner">
                   <h2 className="count d-flex">
-                    <span className="odometer">
+                    <span className="odometer" >
                       {isVisible && <AnimatedNumbers
-                        animateToNumber={356} transitions={(index) => ({
+                        animateToNumber={50000} transitions={(index) => ({
                           type: "spring",
                           duration: index + 0.9,
                         })} ></AnimatedNumbers>}
                     </span>
-                    <span className="plus">+</span>
+                    <span className="plus">
+                      m³
+                    </span>
                   </h2>
                   <div className="text">
-                    <p>Owned Vehicles</p>
+                    <p>{t("fact4")}</p>
                   </div>
                 </div>
               </div>

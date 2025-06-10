@@ -9,7 +9,6 @@ const ContactUsSection = () => {
 
     return (
         <section className="contact-page padding">
-            <div className="shape1 float-bob-y"><img src="/img/shape/contact-page-shape1.png" alt="" /></div>
             <div className="shape2 float-bob-y"><img src="/img/shape/contact-page-shape2.png" alt="" /></div>
             <div className="container">
                 <div className="row">

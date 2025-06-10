@@ -16,6 +16,8 @@ import Video from "~/components/Section/Home-1/Video";
 import WorkingProcess from "~/components/Section/Home-1/WorkingProcess/WorkingProcess";
 import ContactUsSection from "~/components/Section/Contact/ContactUsSection";
 import AboutSection from "~/components/Section/About/AboutSection";
+import FaqSection from "~/components/Section/Home-2/FaqSection/FaqSection";
+import Faq1 from "~/components/Section/Home-3/Faq/Faq1";
 
 export default function Home() {
   return (
@@ -24,9 +26,9 @@ export default function Home() {
         <HeaderThree />
         <Hero />
         <AboutSection />
-        <Blog/>
+        <Blog />
         <Fact />
-        <ChooseUs />
+        <Faq1 />
         <ContactUsSection/>
         <Footer />
       </div>

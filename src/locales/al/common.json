@@ -90,42 +90,41 @@
     }
   ],
 
- 
-  "blog": [
-    {
-      "icon": "icon-global-network",
-      "title": "Rrjeti Global",
-      "description": "Freight Consolidators lidh biznesin tuaj me qendra ndërkombëtare si SHBA."
-    },
-    {
-      "icon": "icon-right-time-delivery",
-      "title": "Dorëzim në kohë",
-      "description": "Ju bëni porosinë, dhe ne kujdesemi për gjithçka nga tërheqja deri tek doganat."
-    },
-    {
-      "icon": "icon-support",
-      "title": "Mbështetje 24 orë",
-      "description": "Ekipi ynë i përkushtuar është në detyrë, duke ndjekur çdo hap të dërgesës tuaj 24/7."
-    },
-    {
-      "icon": "icon-special-shipments",
-      "title": "Dërgesa Speciale",
-      "description": "Nëse mallrat tuaja kanë nevoja të veçanta për transport ose ruajtje, kemi ekspertizën e duhur."
-    },
-    {
-      "icon": "icon-enter-product-details",
-      "title": "Zgjidhje të personalizuara",
-      "description": "Ofrjmë zgjidhje të ndërthurura për të gjitha portet detare dhe aeroportet në botë."
-    },
-    {
-      "icon": "icon-esteemed-company",
-      "title": "Kompani e vlerësuar",
-      "description": "Më shumë se 4099 klientë në botë na kanë zgjedhur për shkak të konkurrencës sonë."
-    }
-  ]
+   "serviceTittle": "Shërbimet",
+  "serviceProducts": "Produktet Tona",
+  "serviceProduct1": "0–2 mm – Guri i Imët (Pluhur)",
+  "serviceProduct2": "0–4 mm – Gurë shumë të Imët",
+  "serviceProduct3": "4–8 mm – Gurë të Imët",
+  "serviceProduct4": "8–16 mm – Gurë të Mesëm",
+  "serviceProduct5": "16–22 mm – Gurë të Trashë",
+  "serviceProduct6": "30–60 mm – Gurë të Mëdhenj",
+  "serviceProduct7": "0–16 mm – Përzierje e Imët-Mesme",
+  "serviceProduct8": "0–30 mm – Përzierje e Kombinuar",
+  "serviceProduct9": "0–60 mm – Përzierje e Trashë",
+  "serviceProduct10": "0–150 mm – Gurë të Mëdhenj të Kombinuar",
+  "serviceProduct11": "60–150 mm – Gurë të Mëdhenj (Blloqe)",
+  "serviceProduct12": "0–400 mm – Guri i Madh",
+  "serviceProduct13": "Material Mbushës",
+  "serviceProduct14": "Filer për Asfalt dhe Beton",
+  "serviceProductDescription1": "Material shumë i imët që përdoret për nivelim sipërfaqesh, shtresa përfundimtare, vendosje pllaka ose si mbushës në asfalt dhe llaç.",
+  "serviceProductDescription2": "Ideal për rrafshime të imta, mbushje tubash, përzierje suva dhe shtresa peizazhi që kërkojnë ngjeshje dhe barazi të lartë.",
+  "serviceProductDescription3": "Rekomandohet për beton të lehtë, sisteme drenazhi dhe shtigje zbukuruese. Ofron filtrueshmëri dhe ngjeshje të mirë.",
+  "serviceProductDescription4": "Përmasë e gjithanshme për përzierje betoni, baza rruge dhe mbushje strukturore. Ofron forcë dhe përpunueshmëri të mirë.",
+  "serviceProductDescription5": "Projektuar për beton të ngarkesës së lartë dhe baza themelesh. I zakonshëm në punime infrastrukturore dhe ndërtim të rëndë.",
+  "serviceProductDescription6": "I përshtatshëm për fusha drenazhi, përforcim argjinaturash dhe ballast për hekurudha dhe rrugë.",
+  "serviceProductDescription7": "Përzierje e gjithanshme e ngjeshshme për shtresa bazë, trotuare dhe nën-themel të betonit.",
+  "serviceProductDescription8": "Shumë i përdorur në ndërtim rrugësh dhe përgatitje terreni. Kombinon grimca të imëta dhe të trasha për ngjeshje të qëndrueshme.",
+  "serviceProductDescription9": "Material për përdorim të rëndë, ideal për baza autostradash, argjinatura të përforcuara dhe mbushje të thella.",
+  "serviceProductDescription10": "Përdoret në përgatitje terreni për projekte të mëdha, kanale drenazhi dhe zona me rrezik erozioni. Ofron qëndrueshmëri dhe masë.",
+  "serviceProductDescription11": "Perfekt për shtresa mbrojtëse, stabilizim shpatijesh, zbukurim kopshtesh dhe ndërtim muresh dekorativë.",
+  "serviceProductDescription12": "Gurë masivë për mbrojtje bregdetare, përforcim brigjesh lumenjsh dhe mbushje strukturore të rënda.",
+  "serviceProductDescription13": "Mbushje fleksibile për hendekë, zona tubash, shtretër instalimesh dhe rregullim vëllimi. Në përmasa të ndryshme.",
+  "serviceProductDescription14": "Pluhur mineral me performancë të lartë që përdoret në asfalt ose beton për të përmirësuar lidhjen dhe për të reduktuar boshllëqet e ajrit.",
 
-  
-
+"fact1": "Vite Eksperiencë",
+"fact2": "Kapaciteti Ditor",
+"fact3": "Fraksione të Ndryshme",
+"fact4": "Kapaciteti i Magazinimit"
 
 }
 

@@ -10,7 +10,7 @@ const ServiceCardTwo = ({item}) => {
             <span className={item?.icon}></span>
           </div>
           <h3>
-            <Link href="about">{item?.title}</Link>
+            {item?.title}
           </h3>
         </div>
         <div className="text-box">

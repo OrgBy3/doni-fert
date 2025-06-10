@@ -3,7 +3,7 @@
 ===============================*/
 .fact-counter-one {
     position: relative;
-    display: block;
+    display:block;
     padding: 0px 0px 90px;
     z-index: 1;
 }
@@ -45,7 +45,7 @@
 .fact-counter-one__single .inner .text::before {
     position: absolute;
     top: 6px;
-    left: 0;
+    left: -35px;
     width: 15px;
     height: 15px;
     background: linear-gradient(94deg, #FFB629 -1.21%, #186265 116.84%);
@@ -55,6 +55,7 @@
 .fact-counter-one__single .inner .text p {
     margin: 0;
     font-weight: 500;
+    margin-left: -35px;
 }
 
 /*=============================
