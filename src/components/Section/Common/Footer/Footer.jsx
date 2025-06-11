@@ -15,30 +15,30 @@ const Footer = () => {
           <div className="footer-bottom__inner">
             <div className="copyright-text">
               <p>
-                © {currentYear} <Link href="/">Translo,</Link> All Rights Reserved.
+                © {currentYear} <Link href="#">DoniFERT</Link> All Rights Reserved.
               </p>
             </div>
 
-            <div className="copyright-menu">
+            {/* <div className="copyright-menu">
               <ul>
                 <li>
-                  <Link href="about">
+                  <Link href="#">
                     Trams &amp; Condition
                     <span className="icon-right-arrow-5"></span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="about">
+                  <Link href="#">
                     Privacy Policy <span className="icon-right-arrow-5"></span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="about">
+                  <Link href="#">
                     Support <span className="icon-right-arrow-5"></span>
                   </Link>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

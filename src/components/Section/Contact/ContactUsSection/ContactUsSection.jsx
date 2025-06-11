@@ -43,7 +43,7 @@ const ContactUsSection = () => {
 
                                     <div className="text-box">
                                         <p>{t("contactUs.location")}</p>
-                                        <h2>{t("contactUs.actualLocation")}</h2>
+                                        <h2><Link href="https://maps.app.goo.gl/Paq1YrnGbbjKMCSF9" target="_blank">{t("contactUs.actualLocation")}</Link></h2>
                                     </div>
                                 </li>
 

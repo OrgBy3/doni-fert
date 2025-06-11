@@ -79,6 +79,7 @@ const HeaderThree = () => {
     };
   }
 
+
   return (
     <header className="main-header main-header-three">
       <div id="sticky-header" className={`menu-area ${scrollClassName}`}>
@@ -113,7 +114,7 @@ const HeaderThree = () => {
                               </div>
                               <div className="text-box">
                                 <p>{t("location")}</p>
-                                <h4>{t("actualLocation")}</h4>
+                                <h4><Link href="https://maps.app.goo.gl/Paq1YrnGbbjKMCSF9" target="_blank">{t("actualLocation")}</Link></h4>
                               </div>
                             </li>
 
@@ -154,90 +155,23 @@ const HeaderThree = () => {
                     <div className="main-header-three__bottom-left">
                       <div className="navbar-wrap main-menu">
                         <ul className="navigation">
-                          <li className="active menu-item-has-children">
+                          <li>
                             <Link href="#">{t("nav.home")}</Link>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link href="/">Home One</Link>
-                              </li>
-                              <li>
-                                <Link href="home-2">Home Two</Link>
-                              </li>
-                              <li>
-                                <Link href="home-3">Home Three</Link>
-                              </li>
-                            </ul>
                           </li>
                           <li>
-                            <Link href="about">{t("nav.about")}</Link>
+                            <Link href="#">{t("nav.about")}</Link>
                           </li>
-                          <li className="menu-item-has-children">
+                          <li >
                             <Link href="#">{t("nav.services")}</Link>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link href="services ">12313</Link>
-                              </li>
-                              <li>
-                                <Link href="road-transport ">
-                                  Road Transport
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="cargo-transport ">
-                                  Cargo Transport
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="ocean-freight ">Ocean Freight</Link>
-                              </li>
-                              <li>
-                                <Link href="rail-transport ">
-                                  Rail Transport
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="warehousing ">Warehousing</Link>
-                              </li>
-                            </ul>
                           </li>
-                          <li className="menu-item-has-children">
+                          <li >
                             <Link href="#">Pages</Link>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link href="team ">Team</Link>
-                              </li>
-                              <li>
-                                <Link href="team-details ">Team Details</Link>
-                              </li>
-                              <li>
-                                <Link href="projects ">Projects</Link>
-                              </li>
-                              <li>
-                                <Link href="project-details ">
-                                  Project Details
-                                </Link>
-                              </li>
-                              <li>
-                                <Link href="error ">404</Link>
-                              </li>
-                            </ul>
-                          </li>
-                          <li className="menu-item-has-children">
-                            <Link href="#">Blog</Link>
-                            <ul className="sub-menu">
-                              <li>
-                                <Link href="blog ">Blog</Link>
-                              </li>
-                              <li>
-                                <Link href="blog-standard ">Blog standard</Link>
-                              </li>
-                              <li>
-                                <Link href="blog-details ">Blog Details</Link>
-                              </li>
-                            </ul>
                           </li>
                           <li>
-                            <Link href="contact ">{t("nav.contact")}</Link>
+                            <Link href="#">Blog</Link>
+                          </li>
+                          <li>
+                            <Link href="#">{t("nav.contact")}</Link>
                           </li>
                         </ul>
                       </div>
@@ -263,9 +197,10 @@ const HeaderThree = () => {
                             }),
                             option: (provided) => ({
                               ...provided,
-                              color: "#fff",
-                              backgroundColor: "#FF5E15",
+                              color: "#000000",
+                              backgroundColor: "#cfd0db",
                             }),
+                            //#cfd0db    00FFFFFF
                           }}
                         />
                       </div>
@@ -307,8 +242,8 @@ const HeaderThree = () => {
                   }),
                   option: (provided) => ({
                     ...provided,
-                    color: "#fff",
-                    backgroundColor: "#FF5E15",
+                    color: "#000000",
+                    backgroundColor: "#cfd0db",
                   }),
                 }}
               />

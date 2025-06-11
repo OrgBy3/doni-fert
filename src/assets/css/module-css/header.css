@@ -1149,8 +1149,11 @@
 .main-header__language-switcher {
     position: relative;
     display: block;
-    margin-right: 25px;
-    padding-right: 25px;
+    margin-right: 150px;
+    padding-right: 60px;
+    margin-left: -40px;
+    padding-left: 50px;
+    margin-bottom: 5px;
 }
 
 .main-header__language-switcher::before {
@@ -1497,9 +1500,6 @@
     display: none;
 }
 
-.main-header-three .navbar-wrap>ul>li.menu-item-has-children>a::after {
-    content: "\e933";
-}
 
 .main-header-three .navbar-wrap ul li a {
     color: var(--thm-white);
@@ -1507,10 +1507,6 @@
 
 .main-header-three .navbar-wrap>ul>li.active>a,
 .main-header-three .navbar-wrap>ul>li:hover>a {
-    color: var(--thm-primary);
-}
-
-.main-header-three .navbar-wrap>ul>li.menu-item-has-children.active>a::after {
     color: var(--thm-primary);
 }
 
