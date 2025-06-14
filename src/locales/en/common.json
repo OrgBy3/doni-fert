@@ -8,10 +8,10 @@
   "nav": {
     "home": "Home",
     "about": "About",
-    "services": "Services",
-    "pages": "Pages",
-    "blog": "Blog",
-    "contact": "Contact"
+    "products": "Products",
+    "whyUs": "Why Us",
+    "contact": "Contact",
+    "fact": "Facts & Figures"
   },
 
    "LandingPage": "We are the leading",
@@ -90,7 +90,7 @@
   }
 ],
 
-  "serviceTittle": "Services",
+  "serviceTittle": "What we offer",
   "serviceProducts": "Our Products",
   "serviceProduct1": "0–2 mm – Fine Aggregate (Dust)",
   "serviceProduct2": "0–4 mm – Very Fine Gravel",

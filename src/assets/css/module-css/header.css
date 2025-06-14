@@ -1176,7 +1176,9 @@
     display: block;
     width: 35px;
 }
-
+section {
+  scroll-margin-top: 120px; /* Adjust based on your header height */
+}
 .main-header__language-switcher .language-switcher form .select-box {
     position: relative;
     display: block;

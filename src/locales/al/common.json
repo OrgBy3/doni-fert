@@ -8,10 +8,10 @@
   "nav": {
     "home": "Ballina",
     "about": "Rreth Nesh",
-    "services": "Shërbime",
-    "pages": "Faqe",
-    "blog": "Blog",
-    "contact": "Kontakt"
+    "products": "Produktet",
+    "whyUs": "Pse ne",
+    "contact": "Kontakt",
+    "fact": "Fakte & Shifra"
   },
 
   "LandingPage": "Ne jemi liderët",
@@ -90,7 +90,7 @@
     }
   ],
 
-   "serviceTittle": "Shërbimet",
+   "serviceTittle": "Qka ofrojmë",
   "serviceProducts": "Produktet Tona",
   "serviceProduct1": "0–2 mm – Guri i Imët (Pluhur)",
   "serviceProduct2": "0–4 mm – Gurë shumë të Imët",

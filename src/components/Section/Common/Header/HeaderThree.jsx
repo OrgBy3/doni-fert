@@ -79,7 +79,6 @@ const HeaderThree = () => {
     };
   }
 
-
   return (
     <header className="main-header main-header-three">
       <div id="sticky-header" className={`menu-area ${scrollClassName}`}>
@@ -114,7 +113,14 @@ const HeaderThree = () => {
                               </div>
                               <div className="text-box">
                                 <p>{t("location")}</p>
-                                <h4><Link href="https://maps.app.goo.gl/Paq1YrnGbbjKMCSF9" target="_blank">{t("actualLocation")}</Link></h4>
+                                <h4>
+                                  <Link
+                                    href="https://maps.app.goo.gl/Paq1YrnGbbjKMCSF9"
+                                    target="_blank"
+                                  >
+                                    {t("actualLocation")}
+                                  </Link>
+                                </h4>
                               </div>
                             </li>
 
@@ -156,22 +162,22 @@ const HeaderThree = () => {
                       <div className="navbar-wrap main-menu">
                         <ul className="navigation">
                           <li>
-                            <Link href="#">{t("nav.home")}</Link>
+                            <Link href="#home">{t("nav.home")}</Link>
                           </li>
                           <li>
-                            <Link href="#">{t("nav.about")}</Link>
-                          </li>
-                          <li >
-                            <Link href="#">{t("nav.services")}</Link>
-                          </li>
-                          <li >
-                            <Link href="#">Pages</Link>
+                            <Link href="#about">{t("nav.about")}</Link>
                           </li>
                           <li>
-                            <Link href="#">Blog</Link>
+                            <Link href="#products">{t("nav.products")}</Link>
                           </li>
                           <li>
-                            <Link href="#">{t("nav.contact")}</Link>
+                            <Link href="#why-us">{t("nav.whyUs")}</Link>
+                          </li>
+                          <li>
+                            <Link href="#facts">{t("nav.fact")}</Link>
+                          </li>
+                          <li>
+                            <Link href="#contact">{t("nav.contact")}</Link>
                           </li>
                         </ul>
                       </div>
@@ -224,9 +230,13 @@ const HeaderThree = () => {
 
             <div className="nav-logo">
               <Link href="/">
-                <img src="/img/resource/mobile-menu-logo3.png" />
+                <img
+                  src="/img/resource/mobile-menu-logo3.png"
+                  alt="Mobile Logo"
+                />
               </Link>
             </div>
+
             <div className="main-header__language-switcher">
               <Select
                 className="selectmenu wide"
@@ -248,208 +258,44 @@ const HeaderThree = () => {
                 }}
               />
             </div>
+
             <div className="menu-outer">
               <ul className="navigation">
-                <li className="active menu-item-has-children">
-                  <Link href="#">Home</Link>
-                  <ul
-                    className={`sub-menu ${
-                      home ? "sub-menu-visible test" : "sub-menu-hidden"
-                    }`}
-                    style={{ zIndex: `${home ? "0" : ""}` }}
-                  >
-                    <li
-                      style={{
-                        borderTop: `${
-                          home ? "1px solid #0000001a" : "1px solid #0000001a"
-                        }`,
-                      }}
-                    >
-                      <Link href="/">Home One</Link>
-                    </li>
-                    <li
-                      style={{
-                        borderTop: `${
-                          home ? "1px solid #0000001a" : "1px solid #0000001a"
-                        }`,
-                      }}
-                    >
-                      <Link href="home-2">Home Two</Link>
-                    </li>
-                    <li
-                      style={{
-                        borderTop: `${
-                          home ? "1px solid #0000001a" : "1px solid #0000001a"
-                        }`,
-                      }}
-                    >
-                      <Link href="home-3">Home Three</Link>
-                    </li>
-                  </ul>
-                  <div className="dropdown-btn" onClick={() => setHome(!home)}>
-                    <span className="fas fa-angle-down"></span>
-                  </div>
-                </li>
-                <li
-                  style={{
-                    marginTop: `${home ? "0px" : "-134px"}`,
-                    zIndex: `${home ? "999" : ""}`,
-                    transition: "0.3s linear",
-                  }}
-                >
-                  <Link href="about">About</Link>
-                </li>
-                <li className="menu-item-has-children">
-                  <Link href="#">Services</Link>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link href="services">Services</Link>
-                    </li>
-                    <li>
-                      <Link href="road-transport">Road Transport</Link>
-                    </li>
-                    <li>
-                      <Link href="cargo-transport">Cargo Transport</Link>
-                    </li>
-                    <li>
-                      <Link href="ocean-freight">Ocean Freight</Link>
-                    </li>
-                    <li>
-                      <Link href="rail-transport">Rail Transport</Link>
-                    </li>
-                    <li>
-                      <Link href="warehousing">Warehousing</Link>
-                    </li>
-                  </ul>
-                  <div className="dropdown-btn" onClick={serviceHandler}>
-                    <span className="fas fa-angle-down"></span>
-                  </div>
-                  {/* onClick={()=>setService(!service)} */}
-                </li>
-                <li
-                  className="menu-item-has-children"
-                  style={{
-                    marginTop: `${service ? "0px" : "-314px"}`,
-                    zIndex: `${service ? "0" : "999"}`,
-                    transition: "0.3s linear",
-                  }}
-                >
-                  <Link href="#">Pages</Link>
-                  <ul className="sub-menu">
-                    <li>
-                      <Link href="team">Team</Link>
-                    </li>
-                    <li>
-                      <Link href="team-details">Team Details</Link>
-                    </li>
-                    <li>
-                      <Link href="projects">Projects</Link>
-                    </li>
-                    <li>
-                      <Link href="project-details">Project Details</Link>
-                    </li>
-                    <li>
-                      <Link href="error">404</Link>
-                    </li>
-                  </ul>
-                  <div className="dropdown-btn" onClick={pageHandler}>
-                    <span className="fas fa-angle-down"></span>
-                  </div>
-                  {/* onClick={()=>setPage(!page)} */}
-                </li>
-                <li
-                  className="menu-item-has-children"
-                  style={{
-                    marginTop: `${page ? "0px" : "-224px"}`,
-                    zIndex: `${page ? "0" : "99999"}`,
-                    transition: "0.3s linear",
-                  }}
-                >
-                  <Link href="#">Blog</Link>
-                  <ul
-                    className="sub-menu"
-                    style={{ opacity: `${blog ? "1" : "0"}` }}
-                  >
-                    <li>
-                      <Link href="blog">Blog</Link>
-                    </li>
-                    <li>
-                      <Link href="blog-standard">Blog standard</Link>
-                    </li>
-                    <li>
-                      <Link href="blog-details">Blog Details</Link>
-                    </li>
-                  </ul>
-                  <div className="dropdown-btn" onClick={() => setBlog(!blog)}>
-                    <span className="fas fa-angle-down"></span>
-                  </div>
-                </li>
-                <li
-                  style={{
-                    marginTop: `${blog ? "0px" : "-134px"}`,
-                    zIndex: `${blog ? "99999" : "99999"}`,
-                    transition: "0.3s linear",
-                  }}
-                >
-                  <Link href="contact">Contact</Link>
-                </li>
-              </ul>
-            </div>
-            <div
-              className="contact-info"
-              style={{ backgroundColor: "white", zIndex: "99999" }}
-            >
-              <div className="icon-box" Name>
-                <span className="icon-telephone-handle-silhouette"></span>
-              </div>
-              <p>
-                <Link href="tel:123456789">(629) 555-0129</Link>
-              </p>
-            </div>
-            <div
-              className="social-links"
-              style={{ backgroundColor: "white", zIndex: "99999" }}
-            >
-              <ul
-                className="clearfix list-wrap"
-                style={{ backgroundColor: "white", zIndex: "99999" }}
-              >
                 <li>
-                  <Link href="#">
-                    <i className="fab fa-facebook-f"></i>
-                  </Link>
+                  <a href="#home" onClick={mobileMenuClose}>
+                    {t("nav.home")}
+                  </a>
                 </li>
                 <li>
-                  <Link href="#">
-                    <i className="fab fa-twitter"></i>
-                  </Link>
+                  <a href="#about" onClick={mobileMenuClose}>
+                    {t("nav.about")}
+                  </a>
                 </li>
                 <li>
-                  <Link href="#">
-                    <i className="fab fa-instagram"></i>
-                  </Link>
+                  <a href="#products" onClick={mobileMenuClose}>
+                    {t("nav.products")}
+                  </a>
                 </li>
                 <li>
-                  <Link href="#">
-                    <i className="fab fa-linkedin-in"></i>
-                  </Link>
+                  <a href="#why-us" onClick={mobileMenuClose}>
+                    {t("nav.whyUs")}
+                  </a>
                 </li>
                 <li>
-                  <Link href="#">
-                    <i className="fab fa-youtube"></i>
-                  </Link>
+                  <a href="#facts" onClick={mobileMenuClose}>
+                    {t("nav.fact")}
+                  </a>
+                </li>
+                <li>
+                  <a href="#contact" onClick={mobileMenuClose}>
+                    {t("nav.contact")}
+                  </a>
                 </li>
               </ul>
             </div>
           </nav>
         </div>
-        <div
-          className={` ${mobileMenu ? "menu-backdrop" : ""}`}
-          onClick={mobileMenuClose}
-        ></div>
-        {isOverlayActive && (
-          <div className="overlay" onClick={mobileMenuClose}></div>
-        )}
+
         {/* <!-- End Mobile Menu --> */}
       </div>
 

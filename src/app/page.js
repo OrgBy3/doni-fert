@@ -24,12 +24,31 @@ export default function Home() {
     <div className="body-dark-bg homeOne">
       <div className="fix">
         <HeaderThree />
-        <Hero />
-        <AboutSection />
-        <Blog />
-        <Fact />
-        <Faq1 />
-        <ContactUsSection/>
+
+        <section id="home">
+          <Hero />
+        </section>
+
+        <section id="about">
+          <AboutSection />
+        </section>
+
+        <section id="why-us">
+          <Blog />
+        </section>
+
+        <section id="products">
+          <Faq1 />
+        </section>
+
+        <section id="facts">
+          <Fact />
+        </section>
+
+        <section id="contact">
+          <ContactUsSection />
+        </section>
+
         <Footer />
       </div>
     </div>
