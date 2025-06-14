@@ -162,22 +162,88 @@ const HeaderThree = () => {
                       <div className="navbar-wrap main-menu">
                         <ul className="navigation">
                           <li>
-                            <Link href="#home">{t("nav.home")}</Link>
+                            <a
+                              href="#"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                document
+                                  .getElementById("home")
+                                  ?.scrollIntoView({ behavior: "smooth" });
+                                mobileMenuClose();
+                              }}
+                            >
+                              {t("nav.home")}
+                            </a>
                           </li>
                           <li>
-                            <Link href="#about">{t("nav.about")}</Link>
+                            <a
+                              href="#"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                document
+                                  .getElementById("about")
+                                  ?.scrollIntoView({ behavior: "smooth" });
+                                mobileMenuClose();
+                              }}
+                            >
+                              {t("nav.about")}
+                            </a>
                           </li>
                           <li>
-                            <Link href="#products">{t("nav.products")}</Link>
+                            <a
+                              href="#"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                document
+                                  .getElementById("products")
+                                  ?.scrollIntoView({ behavior: "smooth" });
+                                mobileMenuClose();
+                              }}
+                            >
+                              {t("nav.products")}
+                            </a>
                           </li>
                           <li>
-                            <Link href="#why-us">{t("nav.whyUs")}</Link>
+                            <a
+                              href="#"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                document
+                                  .getElementById("why-us")
+                                  ?.scrollIntoView({ behavior: "smooth" });
+                                mobileMenuClose();
+                              }}
+                            >
+                              {t("nav.whyUs")}
+                            </a>
                           </li>
                           <li>
-                            <Link href="#facts">{t("nav.fact")}</Link>
+                            <a
+                              href="#"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                document
+                                  .getElementById("facts")
+                                  ?.scrollIntoView({ behavior: "smooth" });
+                                mobileMenuClose();
+                              }}
+                            >
+                              {t("nav.fact")}
+                            </a>
                           </li>
                           <li>
-                            <Link href="#contact">{t("nav.contact")}</Link>
+                            <a
+                              href="#"
+                              onClick={(e) => {
+                                e.preventDefault();
+                                document
+                                  .getElementById("contact")
+                                  ?.scrollIntoView({ behavior: "smooth" });
+                                mobileMenuClose();
+                              }}
+                            >
+                              {t("nav.contact")}
+                            </a>
                           </li>
                         </ul>
                       </div>
@@ -262,32 +328,86 @@ const HeaderThree = () => {
             <div className="menu-outer">
               <ul className="navigation">
                 <li>
-                  <a href="#home" onClick={mobileMenuClose}>
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document
+                        .getElementById("home")
+                        ?.scrollIntoView({ behavior: "smooth" });
+                      mobileMenuClose();
+                    }}
+                  >
                     {t("nav.home")}
                   </a>
                 </li>
                 <li>
-                  <a href="#about" onClick={mobileMenuClose}>
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document
+                        .getElementById("about")
+                        ?.scrollIntoView({ behavior: "smooth" });
+                      mobileMenuClose();
+                    }}
+                  >
                     {t("nav.about")}
                   </a>
                 </li>
                 <li>
-                  <a href="#products" onClick={mobileMenuClose}>
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document
+                        .getElementById("products")
+                        ?.scrollIntoView({ behavior: "smooth" });
+                      mobileMenuClose();
+                    }}
+                  >
                     {t("nav.products")}
                   </a>
                 </li>
                 <li>
-                  <a href="#why-us" onClick={mobileMenuClose}>
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document
+                        .getElementById("why-us")
+                        ?.scrollIntoView({ behavior: "smooth" });
+                      mobileMenuClose();
+                    }}
+                  >
                     {t("nav.whyUs")}
                   </a>
                 </li>
                 <li>
-                  <a href="#facts" onClick={mobileMenuClose}>
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document
+                        .getElementById("facts")
+                        ?.scrollIntoView({ behavior: "smooth" });
+                      mobileMenuClose();
+                    }}
+                  >
                     {t("nav.fact")}
                   </a>
                 </li>
                 <li>
-                  <a href="#contact" onClick={mobileMenuClose}>
+                  <a
+                    href="#"
+                    onClick={(e) => {
+                      e.preventDefault();
+                      document
+                        .getElementById("contact")
+                        ?.scrollIntoView({ behavior: "smooth" });
+                      mobileMenuClose();
+                    }}
+                  >
                     {t("nav.contact")}
                   </a>
                 </li>
