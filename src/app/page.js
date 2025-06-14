@@ -33,12 +33,12 @@ export default function Home() {
           <AboutSection />
         </section>
 
-        <section id="why-us">
-          <Blog />
-        </section>
-
         <section id="products">
           <Faq1 />
+        </section>
+
+        <section id="why-us">
+          <Blog />
         </section>
 
         <section id="facts">
