@@ -53,7 +53,7 @@
   "some_reasons": "Some reasons to choose us",
   "cards": [
   {
-    "img2": "/img/blog/blog-v3-img1.jpg",
+    "img2": "/img/blog/1.png",
     "title": "Los Angeles Abrasion Test",
     "description": "Our gravel has been tested by the Institute for Road and Construction Research (INRO) using the Los Angeles abrasion test, following the EN 12620:2002 standard. The results confirm its strength and durability.",
     "category1": "Result: ",
@@ -62,7 +62,7 @@
     "result2": "LA20 – High durability, suitable for concrete and road construction"
   },
   {
-    "img2": "/img/blog/blog-v3-img2.jpg",
+    "img2": "/img/blog/2.png",
     "title": "Micro-Deval Abrasion Test",
     "description": "Our gravel was tested by spinning it 14,000 times in a drum with water and steel balls, simulating heavy use and long-term stress like it would face in roads or railways.",
     "category1": "Result: ",
@@ -71,7 +71,7 @@
     "result2": "The gravel is high quality and meets European standards for construction use"
   },
   {
-    "img2": "/img/blog/blog-v3-img3.jpg",
+    "img2": "/img/blog/3.png",
     "title": "Gravel Quality Test-(INRO)",
     "category1": "Dry Strength: ",
     "result1": "82.3 N/mm² (Standard: ≥ 80)",

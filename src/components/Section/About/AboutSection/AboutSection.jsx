@@ -17,10 +17,10 @@ const AboutSection = () => {
                         <div className="about-three__img">
                             <div className="shape1"><img src="/img/shape/about-v3-shape1.png" alt="" /></div>
                             <div className="about-three__img1 wow fadeInLeft" data-wow-delay=".1s">
-                                <img src="/img/about/about-v3-img1.jpg" alt="" />
+                                <img src="/img/about/stone-1.jpg" alt="" />
                             </div>
                             <div className="about-three__img2 wow fadeInRight" data-wow-delay=".1s">
-                                <img src="/img/about/about-v3-img2.jpg" alt="" />
+                                <img src="/img/about/stone-2.jpg" alt="" />
                             </div>
                         </div>
                     </div>

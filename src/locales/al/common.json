@@ -53,7 +53,7 @@
   "some_reasons": "Disa arsye për të na zgjedhur",
   "cards": [
     {
-      "img2": "/img/blog/blog-v3-img1.jpg",
+      "img2": "/img/blog/1.png",
       "title": "Testi i Abrasionit Los Angeles",
       "description": "Guri ynë është testuar nga Instituti për Kërkime Rrugore dhe Ndërtimore (INRO) duke përdorur testin e abrasionit Los Angeles, sipas standardit EN 12620:2002. Rezultatet konfirmojnë qëndrueshmërinë dhe forcën e tij.",
       "category1": "Rezultati: ",
@@ -62,7 +62,7 @@
       "result2": "LA20 – Qëndrueshmëri e lartë, e përshtatshme për beton dhe ndërtim rrugësh"
     },
     {
-      "img2": "/img/blog/blog-v3-img2.jpg",
+      "img2": "/img/blog/2.png",
       "title": "Testi i Abrasionit Micro-Deval",
       "description": "Guri ynë është testuar duke u rrotulluar 14,000 herë në një tambur me ujë dhe sfera çeliku, duke simuluar përdorim të rëndë dhe stres afatgjatë të ngjashëm me atë që përballet në rrugë apo hekurudha.",
       "category1": "Rezultati: ",
@@ -71,7 +71,7 @@
       "result2": "Cilësi të lartë dhe përmbush standardet europiane për përdorim në ndërtim"
     },
     {
-      "img2": "/img/blog/blog-v3-img3.jpg",
+      "img2": "/img/blog/3.png",
       "title": "Testimi i Cilësisë së Gurit-INRO",
       "category1": "Forca në gjendje të thatë: ",
       "result1": "82.3 N/mm² (Standardi: ≥ 80)",
