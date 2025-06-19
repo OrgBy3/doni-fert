@@ -92,7 +92,7 @@ const HeaderThree = () => {
                 <div className="main-header-three__inner">
                   <div className="logo-box-three">
                     <Link href="/">
-                      <img src="/img/resource/logo-6.png" alt="Logo" />
+                      <img src="/img/resource/rsz_3logo-9.png" alt="Logo" />
                     </Link>
                   </div>
                   <div className="main-header-three__top">
@@ -297,7 +297,7 @@ const HeaderThree = () => {
             <div className="nav-logo">
               <Link href="/">
                 <img
-                  src="/img/resource/mobile-menu-logo3.png"
+                  src="/img/resource/logo-9.png"
                   alt="Mobile Logo"
                 />
               </Link>

@@ -1310,9 +1310,10 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 7px;
     width: 250px;
-    height: 120px;
-    background: var(--thm-primary);
+    height: 115px;
+    background-color: white;
     border-radius: 4px;
     z-index: 5;
 }
@@ -1324,6 +1325,7 @@ section {
 
 .logo-box-three a img {
     width: 100%;
+    margin-top: 15px;
 }
 
 .main-header-three__top {
@@ -1605,8 +1607,8 @@ section {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 250px;
-    height: 94px;
+    width: 220px;
+    height: 100px;
 }
 
 .sticky-menu .main-header-three__bottom-left {
