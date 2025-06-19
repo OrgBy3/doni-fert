@@ -39,7 +39,7 @@ const Header = () => {
     setPage(!page);
   };
 
-  const initialSelected = options.find((option) => option.label === "EN");
+  const initialSelected = options.find((option) => option.label === "AL");
 
   const [selected, setSelected] = useState(initialSelected);
   const { t } = useTranslation("common");

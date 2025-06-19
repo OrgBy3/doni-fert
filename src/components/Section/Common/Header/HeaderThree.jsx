@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { useTranslation } from "react-i18next";
-import i18n from "../../../../i18n.client"; // adjust if needed
+import i18n from "../../../../i18n.client"; 
 import Select from "react-select";
 
 const options = [
@@ -19,7 +19,7 @@ const HeaderThree = () => {
   const [blog, setBlog] = useState(false);
   const [isOverlayActive, setIsOverlayActive] = useState(false);
 
-  const initialSelected = options.find((option) => option.label === "EN");
+  const initialSelected = options.find((option) => option.label === "AL");
 
   const [selected, setSelected] = useState(initialSelected);
   const { t } = useTranslation("common");

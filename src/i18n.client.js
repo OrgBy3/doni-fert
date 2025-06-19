@@ -10,8 +10,8 @@ i18n
       en: { common: en },
       al: { common: al },
     },
-    lng: "en",
-    fallbackLng: "en",
+    lng: "al",
+    fallbackLng: "al",
     interpolation: {
       escapeValue: false,
     },
