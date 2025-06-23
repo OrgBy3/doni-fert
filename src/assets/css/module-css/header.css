@@ -1313,7 +1313,7 @@ section {
     padding-top: 7px;
     width: 250px;
     height: 115px;
-    background-color: white;
+    /* background-color: white; */
     border-radius: 4px;
     z-index: 5;
 }
