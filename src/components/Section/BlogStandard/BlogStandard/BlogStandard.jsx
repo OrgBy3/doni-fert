@@ -49,7 +49,7 @@ const BlogStandard = () => {
                                         <li><Link href="blog-details"><i className="icon-comments"></i> 02 Comments</Link></li>
                                         <li><Link href="blog"><i className="icon-tag"></i> Rail Transport</Link></li>
                                     </ul>
-                                    <h2><Link href="blog-details">Rail Transport Service Functions by <br /> Translo
+                                    <h2><Link href="blog-details">Rail Transport Service Functions by <br /> donifert
                                         Logister</Link></h2>
                                     <p>Packages and web page editors now use Lorem Ipsum as their default model
                                         textlayout. The point of using are Ipsum is that it has a more-or-less normal
@@ -141,7 +141,7 @@ const BlogStandard = () => {
                                         <li><Link href="blog-details"><i className="icon-comments"></i> 04 Comments</Link></li>
                                         <li><Link href="blog"><i className="icon-tag"></i> Ocean </Link></li>
                                     </ul>
-                                    <h2><Link href="blog-details">Ocean Freight Service Functions <br /> by Translo</Link>
+                                    <h2><Link href="blog-details">Ocean Freight Service Functions <br /> by donifert</Link>
                                     </h2>
                                     <p>Packages and web page editors now use Lorem Ipsum as their default model
                                         textlayout. The point of using are Ipsum is that it has a more-or-less normal

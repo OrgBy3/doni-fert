@@ -182,7 +182,7 @@ const FooterThree = () => {
           <div className="footer-bottom__inner">
             <div className="copyright-text">
               <p>
-                © {currentYear} <Link href="/">Translo,</Link> All Rights Reserved.
+                © {currentYear} <Link href="/">donifert,</Link> All Rights Reserved.
               </p>
             </div>
             <div className="social-links">

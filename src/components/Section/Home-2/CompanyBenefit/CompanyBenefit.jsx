@@ -65,7 +65,7 @@ export default function CompanyBenefit() {
                 <div className="sub-title">
                   <h5>Company Benefit</h5>
                 </div>
-                <h2>Why do You Like Translo?</h2>
+                <h2>Why do You Like donifert?</h2>
               </div>
 
               <div className="company-benefit-one__content-text">

@@ -3,7 +3,7 @@ import CircleText1 from "~/components/Ui/Components/CircleText";
 const About = () => {
   return (
     <div className="about-one padding">
-      <div className="about-one__big-title">translo </div>
+      <div className="about-one__big-title">donifert </div>
       <div className="container">
         <div className="row">
           <div className="col-xl-5">
